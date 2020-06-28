@@ -15,22 +15,22 @@ This repository also contains many classes which were not used in our paper. Tho
 ## Some translations
 Here are the relevant classes used in our paper:
 
-Main -> RunGame.java (calls a lot of constructors)
+* Main -> RunGame.java (calls a lot of constructors)
 
-The Trust Game -> GameInfo.java (configuration through the constructor)
+* The Trust Game -> GameInfo.java (configuration through the constructor)
 
-the core of the simulation -> StaticEvolutionManager (configuration through the constructor)
+* the core of the simulation -> StaticEvolutionManager (configuration through the constructor)
 
-Honest Player -> AlwaysCooperate.java
-Rational Player -> HomoOeconomicus.java
-Random Player -> TruthfulRandom.java (though, they are not truthful)
-Malicious Player -> MafiaDefect.java
+* Honest Player -> AlwaysCooperate.java
+* Rational Player -> HomoOeconomicus.java
+* Random Player -> TruthfulRandom.java (though, they are not truthful)
+* Malicious Player -> MafiaDefect.java
 
-Without Reputation Score -> NoFeedbackSystem.java
-Objective Reputation Score -> ObjFeedbackSystem.java
-Reported Reputation Score -> PureFeedbackSystem.java
-Weighted Reputation Score -> WeightedFeedbackSystem.java
-Selective Reputation Score -> SelectiveFeedbackSystem.java
-Skewed Reputation Score -> TransformedFeedbackSystem.java
+* Without Reputation Score -> NoFeedbackSystem.java
+* Objective Reputation Score -> ObjFeedbackSystem.java
+* Reported Reputation Score -> PureFeedbackSystem.java
+* Weighted Reputation Score -> WeightedFeedbackSystem.java
+* Selective Reputation Score -> SelectiveFeedbackSystem.java
+* Skewed Reputation Score -> TransformedFeedbackSystem.java
 
-Statistical Analysis -> Utils.java
+* Statistical Analysis -> Utils.java
