@@ -17,14 +17,17 @@ Here are the relevant classes used in our paper:
 
 * Main -> RunGame.java (calls a lot of constructors)
 
-* The Trust Game -> GameInfo.java (configuration through the constructor)
 
 * the core of the simulation -> StaticEvolutionManager (configuration through the constructor)
+* matchings -> RandomIterationManager.java
+* the Trust Game -> GameInfo.java (configuration through the constructor)
+
 
 * Honest Player -> AlwaysCooperate.java
 * Rational Player -> HomoOeconomicus.java
 * Random Player -> TruthfulRandom.java (though, they are not truthful)
 * Malicious Player -> MafiaDefect.java
+
 
 * Without Reputation Score -> NoFeedbackSystem.java
 * Objective Reputation Score -> ObjFeedbackSystem.java
@@ -32,5 +35,6 @@ Here are the relevant classes used in our paper:
 * Weighted Reputation Score -> WeightedFeedbackSystem.java
 * Selective Reputation Score -> SelectiveFeedbackSystem.java
 * Skewed Reputation Score -> TransformedFeedbackSystem.java
+
 
 * Statistical Analysis -> Utils.java
