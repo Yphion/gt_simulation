@@ -4,7 +4,7 @@ This is a simulation used in the project 'Analysis and simulation of a modified 
 
 ## Disclaimer
 
-This simulation is **NOT user friendly** but may help as a framework for somebody who would like to play around with this model.
+This simulation is **NOT user friendly** but may help as a framework for somebody who would like to play around with this model. Furthermore, the code was not intended to be published and hence may not be easily readable and may contain many commented-out lines.
 
 ## Configurations
 
